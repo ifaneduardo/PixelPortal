@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    background-color: #111A21;
+    font-family: 'VT323', monospace;
+}
+.title{
+    text-align: center;
+    color: #4FFFF4;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    Width: 739px;
+    Height: 94px;
+    border: 4px solid #1F2933;
+    border-radius: 15px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.search input{
+    text-align: center;
+    background-color: #111A21;
+    width: 100%;
+    height: 70%;
+    border: 0;
+}
+.search input::placeholder{
+    font-size: 20px;
+    color:#4FFFF4;
+}
+.search img{
+    margin: 30px;
+    width: 45px;
+}
+.buttonsContainer{
+    margin-top: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    Width: 751px;
+    Height: 94px;
+}
+.button{
+    width: 100%;
+    height: 100%;
+}
+.button button{
+    width: 100%;
+    height: 80%;
+    font-family: 'VT323', monospace;
+    font-size: 28px;
+    border: 0;
+    border-radius: 15px;
+}
+.buttonSave button{
+    background-color: #4FFFF4;
+    color: #19244B;
+}
+.buttonPolygon button{
+    background-color: #194B48;
+    color: #F5F5F5;
+}
+
+.cardsContainer{
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    Width: 751px;
+    Height: 254px;
+    border-radius: 20px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+    background-color: #162029;
+}
+.cardInfo{
+    text-align: start;
+    margin-left: 12px;
+    font-size: 16px;
+}
+.cardImg img{
+    border-radius: 20px;
+    margin: 20px;
+}
+.keys{
+    color: #96A0A9;
+}
+.description{
+    color: #4FFFF4;
+}
+
+.footerContainer{
+    background-color: #162029;
+    font-size: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 95px;
+}
+.itemFooter{
+    display: flex;
+    align-items: center;
+}
+.itemFooter span{
+    padding-right: 5px;
+}
+.firstItem{
+    color:#4FFFF4;
+}
